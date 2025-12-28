@@ -1,7 +1,7 @@
 # Role:
 <div align="center">
   
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Apple+System&size=32&pause=1000&color=D83B7D&center=true&vCenter=true&width=500&lines=MERN+Developer;Front-end+Developer;TypeScript+Developer)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Apple+System&size=32&pause=100&color=D83B7D&center=true&vCenter=true&width=500&lines=Front-end+Developer;MERN+Developer;TypeScript+Developer)
 
 </div>
 
