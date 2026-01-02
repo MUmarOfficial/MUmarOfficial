@@ -1,12 +1,13 @@
 # Role:
 <div align="center">
   
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Apple+System&size=32&pause=100&color=D83B7D&center=true&vCenter=true&width=500&lines=Front-end+Developer;MERN+Developer;TypeScript+Developer)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Apple+System&size=32&pause=100&color=D83B7D&center=true&vCenter=true&width=500&lines=Front-end+Developer;Full+Stack+Developer;TypeScript+Developer)
 
 </div>
 
 # About Me:
-Lately, my energy goes to **MERN and DevOps** - not just **React with TypeScript** but also **Node.js, Express, MongoDB, mixed in with Docker, GitHub Actions,** and ways to ship code without hiccups. Right now, I build things up front using **React, Tailwind CSS, and today’s flavor of JavaScript** - step by step pulling in **backend ideas and DevOps** habits to stretch beyond **client-side only**. Sometimes it's about pairing up. I find myself drawn to front-end work or diving into full MERN systems - where real doing teaches timing, how teams flow, also pushing updates that go live. Lately, my learning hours fill with _MERN and DevOps_, getting stuck into _React using TypeScript, then shifting to Node.js, Express, MongoDB - all tied by tools such as Docker, automated workflows on GitHub, continuous integration paths._ The goal? To close the loop between client and server, building something whole. Ask me what comes easy. Interfaces done clean, early days of React, moving step-by-step into MERN, keeping things solid instead of rushing ahead. What trips me up? Getting better at **backend logic, juggling server work, also making DevOps flow - containers, automatic deployments, less hands-on tweaking.** Here’s something strange: I spent ages chasing down errors, all just to see one console.log appear perfectly - when it finally did, that silent moment of things working felt surprisingly big.
+Starting fresh each time matters most to the writer, whose journey began following the **[Frontend Roadmap](https://roadmap.sh/frontend)** before moving into **[Backend Roadmap](https://roadmap.sh/backend)** and **[DevOps Roadmap](https://roadmap.sh/devops)**  work. Instead of staying stuck on what runs in browsers, they now shape **server logic using Node.js, pair it with Express for structure, then store info flexibly via MongoDB.** Efficiency comes alive through **Docker’s containers, and GitHub Actions** handle repetitive steps without constant oversight. Beyond familiar paths, new tools appear - **PostgreSQL, MySQL, even Go and many more- as signs point toward broader tech choices outside just MERN setups**. Learning happens sharply when tangled problems give way to clean results, often alongside others pitching in their strengths. Success feels different after long stretches of trial, debugging late hours, and finally seeing code behave as intended.
+
 ## Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/sSasWpKKtz) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mumar.37) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammadumarofficial) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/MuhammadUmarOfficial) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/26769622) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@mumar.37) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/m_umer03) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@UC1_yK1b0M-TWiskiI5AsEYQ) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hafiz.mumer03@gmail.com)
 # Tech Stack:
@@ -39,6 +40,5 @@ Lately, my energy goes to **MERN and DevOps** - not just **React with TypeScript
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=MUmarOfficial&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
+## ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=The%20beginning%20of%20wisdom%20for%20a%20programmer%20is%20to%20recognize%20the%20difference%20between%20getting%20his%20program%20to%20work%20and%20getting%20it%20right.&author=Michael%20A.%20Jackson)
