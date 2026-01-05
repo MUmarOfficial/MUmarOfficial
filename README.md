@@ -37,8 +37,5 @@ Starting fresh each time matters most to the writer, whose journey began followi
 ![](https://nirzak-streak-stats.vercel.app/?user=MUmarOfficial&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=MUmarOfficial&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=MUmarOfficial&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
 ## ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=The%20beginning%20of%20wisdom%20for%20a%20programmer%20is%20to%20recognize%20the%20difference%20between%20getting%20his%20program%20to%20work%20and%20getting%20it%20right.&author=Michael%20A.%20Jackson)
