@@ -34,11 +34,11 @@ Starting fresh each time matters most to the writer, whose journey began followi
 
 # 📊 GitHub Stats:
 <p align="center">
-  <img src="./generated/stats.svg" alt="Activity Stats" width="495" />
+  <img src="generated/stats.svg" width="495" alt="Activity Stats" />
 </p>
 
 <p align="center">
-  <img src="./generated/languages.svg" alt="Language Stats" width="450" />
+  <img src="generated/languages.svg" width="450" alt="Language Stats" />
 </p>
 
 ## ✍️ Random Dev Quote
