@@ -1,0 +1,39 @@
+
+    <svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0.5" y="0.5" width="399" height="149" rx="4.5" class="bg" stroke-width="1"/>
+      
+    <style>
+      .bg { fill: #fff; stroke: #e1e4e8; }
+      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292e; }
+      .header { font-weight: 600; font-size: 18px; fill: #0969da; }
+      .stat-label { font-size: 14px; fill: #586069; }
+      .stat-value { font-size: 14px; font-weight: 600; fill: #24292e; }
+      
+      /* Dark Mode Support via Media Query */
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0d1117; stroke: #30363d; }
+        .text, .stat-value { fill: #c9d1d9; }
+        .stat-label { fill: #8b949e; }
+        .header { fill: #58a6ff; }
+      }
+    </style>
+  
+      <text x="25" y="35" class="header">GitHub Stats</text>
+      
+      <g transform="translate(25, 60)">
+        <text y="0" class="stat-label">Total Stars:</text>
+        <text x="120" y="0" class="stat-value">0</text>
+        
+        <text y="25" class="stat-label">Total Commits:</text>
+        <text x="120" y="25" class="stat-value">139</text>
+        
+        <text y="50" class="stat-label">Contributions:</text>
+        <text x="120" y="50" class="stat-value">153</text>
+      </g>
+      
+      <g transform="translate(220, 60)">
+         <text y="0" class="stat-label">Current Streak:</text>
+         <text x="110" y="0" class="stat-value">4 days</text>
+      </g>
+    </svg>
+  
