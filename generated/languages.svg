@@ -1,47 +1,47 @@
 
-    <svg width="450" height="260" viewBox="0 0 450 260" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0.5" y="0.5" width="449" height="259" rx="10" class="bg"/>
+    <svg width="450" height="340" viewBox="0 0 450 340" xmlns="http://www.w3.org/2000/svg">
+      <rect x="1" y="1" width="448" height="338" rx="10" class="bg"/>
       
     <style>
-      .bg { fill: #1a1b27; stroke: #30363d; stroke-width: 1px; }
-      .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .bg { fill: #1a1b27; stroke: #30363d; stroke-width: 1.5px; }
+      .title { font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
       .label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
-      .value { font: 600 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8d847; }
+      .value { font: 600 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .streak-val { font: 600 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8d847; }
       .subtext { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
       .divider { stroke: #a9fef7; stroke-opacity: 0.3; stroke-width: 2; }
       .ring { fill: none; stroke: #fe428e; stroke-width: 4; stroke-linecap: round; }
       .fire { fill: #fe428e; }
-      .progress-bg { fill: #30363d; }
     </style>
   
-      <text x="25" y="40" class="title">Top Languages</text>
+      <text x="30" y="50" class="title">Top Languages</text>
       
-      <g transform="translate(25, 60)">
-        <text x="0" y="12" class="subtext" style="font-weight: 600;">TypeScript</text>
-        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
-        <rect x="90" y="2" width="194.03898599231437" height="10" rx="5" fill="#3178c6" />
-        <text x="350" y="12" class="subtext">77.6%</text>
+      <g transform="translate(30, 80)">
+        <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">TypeScript</text>
+        <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
+        <rect x="110" y="2" width="186.20385214098184" height="12" rx="6" fill="#3178c6" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">77.6%</text>
       </g>
     
-      <g transform="translate(25, 95)">
-        <text x="0" y="12" class="subtext" style="font-weight: 600;">JavaScript</text>
-        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
-        <rect x="90" y="2" width="25.753713689516964" height="10" rx="5" fill="#f1e05a" />
-        <text x="350" y="12" class="subtext">10.3%</text>
+      <g transform="translate(30, 125)">
+        <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">JavaScript</text>
+        <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
+        <rect x="110" y="2" width="24.808593356721886" height="12" rx="6" fill="#f1e05a" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">10.3%</text>
       </g>
     
-      <g transform="translate(25, 130)">
-        <text x="0" y="12" class="subtext" style="font-weight: 600;">CSS</text>
-        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
-        <rect x="90" y="2" width="22.947786248502126" height="10" rx="5" fill="#663399" />
-        <text x="350" y="12" class="subtext">9.2%</text>
+      <g transform="translate(30, 170)">
+        <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">CSS</text>
+        <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
+        <rect x="110" y="2" width="22.02117360965901" height="12" rx="6" fill="#663399" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">9.2%</text>
       </g>
     
-      <g transform="translate(25, 165)">
-        <text x="0" y="12" class="subtext" style="font-weight: 600;">HTML</text>
-        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
-        <rect x="90" y="2" width="7.259514069666543" height="10" rx="5" fill="#e34c26" />
-        <text x="350" y="12" class="subtext">2.9%</text>
+      <g transform="translate(30, 215)">
+        <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">HTML</text>
+        <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
+        <rect x="110" y="2" width="6.966380892637253" height="12" rx="6" fill="#e34c26" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">2.9%</text>
       </g>
     
     </svg>

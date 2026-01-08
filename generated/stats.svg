@@ -1,42 +1,42 @@
 
     <svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0.5" y="0.5" width="494" height="194" rx="10" class="bg"/>
+      <rect x="1" y="1" width="493" height="193" rx="10" class="bg"/>
       
     <style>
-      .bg { fill: #1a1b27; stroke: #30363d; stroke-width: 1px; }
-      .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .bg { fill: #1a1b27; stroke: #30363d; stroke-width: 1.5px; }
+      .title { font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
       .label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
-      .value { font: 600 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8d847; }
+      .value { font: 600 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .streak-val { font: 600 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8d847; }
       .subtext { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
       .divider { stroke: #a9fef7; stroke-opacity: 0.3; stroke-width: 2; }
       .ring { fill: none; stroke: #fe428e; stroke-width: 4; stroke-linecap: round; }
       .fire { fill: #fe428e; }
-      .progress-bg { fill: #30363d; }
     </style>
   
       
       <g transform="translate(0, 0)">
-        <text x="82" y="80" text-anchor="middle" class="value">140</text>
-        <text x="82" y="110" text-anchor="middle" class="label">Total Contributions</text>
-        <text x="82" y="140" text-anchor="middle" class="subtext">Commits & PRs</text>
+        <text x="82" y="80" text-anchor="middle" class="value">155</text>
+        <text x="82" y="115" text-anchor="middle" class="label">Total Contributions</text>
+        <text x="82" y="145" text-anchor="middle" class="subtext">Jun 25, 2024 - Present</text>
       </g>
 
       <line x1="165" y1="40" x2="165" y2="155" class="divider" />
 
       <g transform="translate(165, 0)">
-        <circle cx="82" cy="75" r="35" class="ring" stroke-dasharray="220" />
-        <path d="M82 35 c-2 0-4 2-4 4 0 3 2 5 4 10 2-5 4-7 4-10 0-2-2-4-4-4z" class="fire" transform="translate(0, -5)"/>
-        <text x="82" y="85" text-anchor="middle" class="value" style="font-size: 28px;">4</text>
-        <text x="82" y="125" text-anchor="middle" class="label" style="fill: #f8d847;">Current Streak</text>
-        <text x="82" y="150" text-anchor="middle" class="subtext">Day Count</text>
+        <path d="M82 18 c-3 0-6 3-6 6 0 4.5 3 7.5 6 15 3-7.5 6-10.5 6-15 0-3-3-6-6-6z" class="fire" transform="translate(0, 5)"/>
+        <circle cx="82" cy="75" r="38" class="ring" />
+        <text x="82" y="85" text-anchor="middle" class="streak-val">4</text>
+        <text x="82" y="135" text-anchor="middle" class="streak-val" style="font-size: 16px;">Current Streak</text>
+        <text x="82" y="160" text-anchor="middle" class="subtext">Jan 5 - Jan 9</text>
       </g>
 
       <line x1="330" y1="40" x2="330" y2="155" class="divider" />
 
       <g transform="translate(330, 0)">
         <text x="82" y="80" text-anchor="middle" class="value">0</text>
-        <text x="82" y="110" text-anchor="middle" class="label">Total Stars</text>
-        <text x="82" y="140" text-anchor="middle" class="subtext">Across Repos</text>
+        <text x="82" y="115" text-anchor="middle" class="label">Total Stars</text>
+        <text x="82" y="145" text-anchor="middle" class="subtext">Across All Repos</text>
       </g>
     </svg>
   
