@@ -33,9 +33,13 @@ Starting fresh each time matters most to the writer, whose journey began followi
 ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white)
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=MUmarOfficial&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=MUmarOfficial&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=MUmarOfficial&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="center">
+  <img src="./generated/stats.svg" alt="Activity Stats" width="495" />
+</p>
+
+<p align="center">
+  <img src="./generated/languages.svg" alt="Language Stats" width="450" />
+</p>
 
 ## ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=The%20beginning%20of%20wisdom%20for%20a%20programmer%20is%20to%20recognize%20the%20difference%20between%20getting%20his%20program%20to%20work%20and%20getting%20it%20right.&author=Michael%20A.%20Jackson)

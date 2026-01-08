@@ -117,70 +117,87 @@ function calculateStats(data) {
   };
 }
 
-// --- 5. GENERATE SVG IMAGES ---
 function generateSVGs(stats) {
-  // CSS Styles for the SVG
+  // Radical Theme Colors
+  const COLORS = {
+    bg: "#1a1b27",
+    title: "#fe428e", // Pink
+    text: "#a9fef7", // Cyan
+    stats: "#f8d847", // Yellow
+    border: "#30363d",
+  };
+
   const style = `
     <style>
-      .bg { fill: #fff; stroke: #e1e4e8; }
-      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292e; }
-      .header { font-weight: 600; font-size: 18px; fill: #0969da; }
-      .stat-label { font-size: 14px; fill: #586069; }
-      .stat-value { font-size: 14px; font-weight: 600; fill: #24292e; }
-      
-      /* Dark Mode Support via Media Query */
-      @media (prefers-color-scheme: dark) {
-        .bg { fill: #0d1117; stroke: #30363d; }
-        .text, .stat-value { fill: #c9d1d9; }
-        .stat-label { fill: #8b949e; }
-        .header { fill: #58a6ff; }
-      }
+      .bg { fill: ${COLORS.bg}; stroke: ${COLORS.border}; stroke-width: 1px; }
+      .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${COLORS.title}; }
+      .label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${COLORS.title}; }
+      .value { font: 600 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${COLORS.stats}; }
+      .subtext { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${COLORS.text}; }
+      .divider { stroke: ${COLORS.text}; stroke-opacity: 0.3; stroke-width: 2; }
+      .ring { fill: none; stroke: ${COLORS.title}; stroke-width: 4; stroke-linecap: round; }
+      .fire { fill: ${COLORS.title}; }
+      .progress-bg { fill: ${COLORS.border}; }
     </style>
   `;
 
-  // 1. Stats Card
+  // 1. Stats Card (3-Column Layout like the image)
   const statsSvg = `
-    <svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0.5" y="0.5" width="399" height="149" rx="4.5" class="bg" stroke-width="1"/>
+    <svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0.5" y="0.5" width="494" height="194" rx="10" class="bg"/>
       ${style}
-      <text x="25" y="35" class="header">GitHub Stats</text>
       
-      <g transform="translate(25, 60)">
-        <text y="0" class="stat-label">Total Stars:</text>
-        <text x="120" y="0" class="stat-value">${stats.totalStars}</text>
-        
-        <text y="25" class="stat-label">Total Commits:</text>
-        <text x="120" y="25" class="stat-value">${stats.totalCommits}</text>
-        
-        <text y="50" class="stat-label">Contributions:</text>
-        <text x="120" y="50" class="stat-value">${stats.totalContributions}</text>
+      <g transform="translate(0, 0)">
+        <text x="82" y="80" text-anchor="middle" class="value">${stats.totalCommits}</text>
+        <text x="82" y="110" text-anchor="middle" class="label">Total Contributions</text>
+        <text x="82" y="140" text-anchor="middle" class="subtext">Commits & PRs</text>
       </g>
-      
-      <g transform="translate(220, 60)">
-         <text y="0" class="stat-label">Current Streak:</text>
-         <text x="110" y="0" class="stat-value">${stats.currentStreak} days</text>
+
+      <line x1="165" y1="40" x2="165" y2="155" class="divider" />
+
+      <g transform="translate(165, 0)">
+        <circle cx="82" cy="75" r="35" class="ring" stroke-dasharray="220" />
+        <path d="M82 35 c-2 0-4 2-4 4 0 3 2 5 4 10 2-5 4-7 4-10 0-2-2-4-4-4z" class="fire" transform="translate(0, -5)"/>
+        <text x="82" y="85" text-anchor="middle" class="value" style="font-size: 28px;">${stats.currentStreak}</text>
+        <text x="82" y="125" text-anchor="middle" class="label" style="fill: ${COLORS.stats};">Current Streak</text>
+        <text x="82" y="150" text-anchor="middle" class="subtext">Day Count</text>
+      </g>
+
+      <line x1="330" y1="40" x2="330" y2="155" class="divider" />
+
+      <g transform="translate(330, 0)">
+        <text x="82" y="80" text-anchor="middle" class="value">${stats.totalStars}</text>
+        <text x="82" y="110" text-anchor="middle" class="label">Total Stars</text>
+        <text x="82" y="140" text-anchor="middle" class="subtext">Across Repos</text>
       </g>
     </svg>
   `;
 
-  // 2. Languages Card
-  let langY = 40;
-  const langRows = stats.languages.map(l => {
-    const row = `
-      <text x="25" y="${langY + 11}" class="text" font-size="12">${l.name}</text>
-      <rect x="100" y="${langY+2}" width="${l.percent * 2}" height="10" rx="3" fill="${l.color}" />
-      <text x="${100 + (l.percent * 2) + 10}" y="${langY + 11}" class="stat-label" font-size="12">${l.percent.toFixed(1)}%</text>
+  // 2. Languages Card (Sleek Progress Bars)
+  let langItems = stats.languages
+    .map((l, i) => {
+      const y = 60 + i * 35;
+      return `
+      <g transform="translate(25, ${y})">
+        <text x="0" y="12" class="subtext" style="font-weight: 600;">${
+          l.name
+        }</text>
+        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
+        <rect x="90" y="2" width="${
+          l.percent * 2.5
+        }" height="10" rx="5" fill="${l.color}" />
+        <text x="350" y="12" class="subtext">${l.percent.toFixed(1)}%</text>
+      </g>
     `;
-    langY += 25;
-    return row;
-  }).join('');
+    })
+    .join("");
 
   const langSvg = `
-    <svg width="400" height="${langY + 20}" viewBox="0 0 400 ${langY + 20}" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0.5" y="0.5" width="399" height="${langY + 19}" rx="4.5" class="bg" stroke-width="1"/>
+    <svg width="450" height="260" viewBox="0 0 450 260" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0.5" y="0.5" width="449" height="259" rx="10" class="bg"/>
       ${style}
-      <text x="25" y="30" class="header">Top Languages</text>
-      ${langRows}
+      <text x="25" y="40" class="title">Top Languages</text>
+      ${langItems}
     </svg>
   `;
 
