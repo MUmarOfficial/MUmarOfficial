@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
 // --- 1. CONFIGURATION ---
 const TOKEN = process.env.STATS_TOKEN;
