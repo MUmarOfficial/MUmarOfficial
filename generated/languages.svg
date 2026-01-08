@@ -1,40 +1,48 @@
 
-    <svg width="400" height="160" viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0.5" y="0.5" width="399" height="159" rx="4.5" class="bg" stroke-width="1"/>
+    <svg width="450" height="260" viewBox="0 0 450 260" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0.5" y="0.5" width="449" height="259" rx="10" class="bg"/>
       
     <style>
-      .bg { fill: #fff; stroke: #e1e4e8; }
-      .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292e; }
-      .header { font-weight: 600; font-size: 18px; fill: #0969da; }
-      .stat-label { font-size: 14px; fill: #586069; }
-      .stat-value { font-size: 14px; font-weight: 600; fill: #24292e; }
-      
-      /* Dark Mode Support via Media Query */
-      @media (prefers-color-scheme: dark) {
-        .bg { fill: #0d1117; stroke: #30363d; }
-        .text, .stat-value { fill: #c9d1d9; }
-        .stat-label { fill: #8b949e; }
-        .header { fill: #58a6ff; }
-      }
+      .bg { fill: #1a1b27; stroke: #30363d; stroke-width: 1px; }
+      .title { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; }
+      .value { font: 600 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #f8d847; }
+      .subtext { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+      .divider { stroke: #a9fef7; stroke-opacity: 0.3; stroke-width: 2; }
+      .ring { fill: none; stroke: #fe428e; stroke-width: 4; stroke-linecap: round; }
+      .fire { fill: #fe428e; }
+      .progress-bg { fill: #30363d; }
     </style>
   
-      <text x="25" y="30" class="header">Top Languages</text>
+      <text x="25" y="40" class="title">Top Languages</text>
       
-      <text x="25" y="51" class="text" font-size="12">TypeScript</text>
-      <rect x="100" y="42" width="155.57672198697574" height="10" rx="3" fill="#3178c6" />
-      <text x="265.5767219869757" y="51" class="stat-label" font-size="12">77.8%</text>
+      <g transform="translate(25, 60)">
+        <text x="0" y="12" class="subtext" style="font-weight: 600;">TypeScript</text>
+        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
+        <rect x="90" y="2" width="194.03898599231437" height="10" rx="5" fill="#3178c6" />
+        <text x="350" y="12" class="subtext">77.6%</text>
+      </g>
     
-      <text x="25" y="76" class="text" font-size="12">JavaScript</text>
-      <rect x="100" y="67" width="20.20364637795194" height="10" rx="3" fill="#f1e05a" />
-      <text x="130.20364637795194" y="76" class="stat-label" font-size="12">10.1%</text>
+      <g transform="translate(25, 95)">
+        <text x="0" y="12" class="subtext" style="font-weight: 600;">JavaScript</text>
+        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
+        <rect x="90" y="2" width="25.753713689516964" height="10" rx="5" fill="#f1e05a" />
+        <text x="350" y="12" class="subtext">10.3%</text>
+      </g>
     
-      <text x="25" y="101" class="text" font-size="12">CSS</text>
-      <rect x="100" y="92" width="18.39909306442763" height="10" rx="3" fill="#663399" />
-      <text x="128.39909306442763" y="101" class="stat-label" font-size="12">9.2%</text>
+      <g transform="translate(25, 130)">
+        <text x="0" y="12" class="subtext" style="font-weight: 600;">CSS</text>
+        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
+        <rect x="90" y="2" width="22.947786248502126" height="10" rx="5" fill="#663399" />
+        <text x="350" y="12" class="subtext">9.2%</text>
+      </g>
     
-      <text x="25" y="126" class="text" font-size="12">HTML</text>
-      <rect x="100" y="117" width="5.820538570644691" height="10" rx="3" fill="#e34c26" />
-      <text x="115.82053857064469" y="126" class="stat-label" font-size="12">2.9%</text>
+      <g transform="translate(25, 165)">
+        <text x="0" y="12" class="subtext" style="font-weight: 600;">HTML</text>
+        <rect x="90" y="2" width="250" height="10" rx="5" class="progress-bg" />
+        <rect x="90" y="2" width="7.259514069666543" height="10" rx="5" fill="#e34c26" />
+        <text x="350" y="12" class="subtext">2.9%</text>
+      </g>
     
     </svg>
   
