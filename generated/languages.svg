@@ -19,28 +19,28 @@
       <g transform="translate(30, 80)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">TypeScript</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="182.71929014694615" height="12" rx="6" fill="#3178c6" />
-        <text x="365" y="12" class="subtext" style="font-size: 14px;">76.1%</text>
+        <rect x="110" y="2" width="182.43870152531665" height="12" rx="6" fill="#3178c6" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">76.0%</text>
       </g>
     
       <g transform="translate(30, 125)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">CSS</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="26.567388380547907" height="12" rx="6" fill="#663399" />
+        <rect x="110" y="2" width="26.702367700592678" height="12" rx="6" fill="#663399" />
         <text x="365" y="12" class="subtext" style="font-size: 14px;">11.1%</text>
       </g>
     
       <g transform="translate(30, 170)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">JavaScript</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="23.9796985220544" height="12" rx="6" fill="#f1e05a" />
+        <rect x="110" y="2" width="24.09338427750534" height="12" rx="6" fill="#f1e05a" />
         <text x="365" y="12" class="subtext" style="font-size: 14px;">10.0%</text>
       </g>
     
       <g transform="translate(30, 215)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">HTML</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="6.733622950451518" height="12" rx="6" fill="#e34c26" />
+        <rect x="110" y="2" width="6.765546496585336" height="12" rx="6" fill="#e34c26" />
         <text x="365" y="12" class="subtext" style="font-size: 14px;">2.8%</text>
       </g>
     
