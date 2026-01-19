@@ -16,7 +16,7 @@
   
       
       <g transform="translate(0, 0)">
-        <text x="82" y="80" text-anchor="middle" class="value">161</text>
+        <text x="82" y="80" text-anchor="middle" class="value">164</text>
         <text x="82" y="115" text-anchor="middle" class="label">Total Contributions</text>
         <text x="82" y="145" text-anchor="middle" class="subtext">Jun 25, 2024 - Present</text>
       </g>
@@ -26,7 +26,7 @@
       <g transform="translate(165, 0)">
         <path d="M82 18 c-3 0-6 3-6 6 0 4.5 3 7.5 6 15 3-7.5 6-10.5 6-15 0-3-3-6-6-6z" class="fire" transform="translate(0, 5)"/>
         <circle cx="82" cy="75" r="38" class="ring" />
-        <text x="82" y="85" text-anchor="middle" class="streak-val">1</text>
+        <text x="82" y="85" text-anchor="middle" class="streak-val">2</text>
         <text x="82" y="135" text-anchor="middle" class="streak-val" style="font-size: 16px;">Current Streak</text>
         <text x="82" y="160" text-anchor="middle" class="subtext">Jan 5 - Jan 9</text>
       </g>
