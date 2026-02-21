@@ -19,28 +19,28 @@
       <g transform="translate(30, 80)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">TypeScript</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="197.92789737181621" height="12" rx="6" fill="#3178c6" />
+        <rect x="110" y="2" width="198.03908005107235" height="12" rx="6" fill="#3178c6" />
         <text x="365" y="12" class="subtext" style="font-size: 14px;">82.5%</text>
       </g>
     
       <g transform="translate(30, 125)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">CSS</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="21.151532363418017" height="12" rx="6" fill="#663399" />
+        <rect x="110" y="2" width="21.065214229146797" height="12" rx="6" fill="#663399" />
         <text x="365" y="12" class="subtext" style="font-size: 14px;">8.8%</text>
       </g>
     
       <g transform="translate(30, 170)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">JavaScript</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="16.111261674280474" height="12" rx="6" fill="#f1e05a" />
+        <rect x="110" y="2" width="16.04551258222488" height="12" rx="6" fill="#f1e05a" />
         <text x="365" y="12" class="subtext" style="font-size: 14px;">6.7%</text>
       </g>
     
       <g transform="translate(30, 215)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">HTML</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="4.809308590485309" height="12" rx="6" fill="#e34c26" />
+        <rect x="110" y="2" width="4.850193137555961" height="12" rx="6" fill="#e34c26" />
         <text x="365" y="12" class="subtext" style="font-size: 14px;">2.0%</text>
       </g>
     
