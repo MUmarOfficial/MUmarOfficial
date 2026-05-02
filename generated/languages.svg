@@ -19,29 +19,29 @@
       <g transform="translate(30, 80)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">TypeScript</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="208.8813103946729" height="12" rx="6" fill="#3178c6" />
-        <text x="365" y="12" class="subtext" style="font-size: 14px;">87.0%</text>
+        <rect x="110" y="2" width="215.29024359025743" height="12" rx="6" fill="#3178c6" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">89.7%</text>
       </g>
     
       <g transform="translate(30, 125)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">CSS</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="15.569866915701358" height="12" rx="6" fill="#663399" />
-        <text x="365" y="12" class="subtext" style="font-size: 14px;">6.5%</text>
+        <rect x="110" y="2" width="12.66850340866044" height="12" rx="6" fill="#663399" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">5.3%</text>
       </g>
     
       <g transform="translate(30, 170)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">JavaScript</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="10.87475705922264" height="12" rx="6" fill="#f1e05a" />
-        <text x="365" y="12" class="subtext" style="font-size: 14px;">4.5%</text>
+        <rect x="110" y="2" width="8.35532295328461" height="12" rx="6" fill="#f1e05a" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">3.5%</text>
       </g>
     
       <g transform="translate(30, 215)">
         <text x="0" y="12" class="subtext" style="font-weight: 600; font-size: 15px;">HTML</text>
         <rect x="110" y="2" width="240" height="12" rx="6" fill="#282a36" />
-        <rect x="110" y="2" width="4.674065630403118" height="12" rx="6" fill="#e34c26" />
-        <text x="365" y="12" class="subtext" style="font-size: 14px;">1.9%</text>
+        <rect x="110" y="2" width="3.685930047797526" height="12" rx="6" fill="#e34c26" />
+        <text x="365" y="12" class="subtext" style="font-size: 14px;">1.5%</text>
       </g>
     
     </svg>
